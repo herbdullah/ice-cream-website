@@ -1,0 +1,96 @@
+.container{
+    width: 70%;
+    display: flex;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .main-nav{
+    display: flex;
+    justify-content: space-around;
+
+    }
+h1, .main-nav{
+    flex: 1;
+}
+.pull{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.happy{
+    flex-direction: column;
+    
+}
+.mag :hover {
+    background-color:green;
+}
+.press{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: left; */
+    /* flex-direction: row; */
+    /* flex: 1; */
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    color: white;
+    
+
+}
+.row{
+    flex-direction: column;
+}
+.footer{
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+footer li{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    justify-content: center;
+}
+.foot{
+    flex-direction: column;
+}
+@media(max-width: 769px) {
+.play{
+   
+    height: 600px;
+}
+.mine{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 1700px;
+}
+.container{
+    width: 100%;
+}
+.main-nav{
+    margin-right: 30px;
+}
+.happy{
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+}

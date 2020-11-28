@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #fffaf0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 40px;
+}
+h1{
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: #a09d9c;
+    color: white;
+}
+section{
+    height: 1250px;
+}
+.banner{
+    /* justify-content: center; */
+    /* display: flex; */
+    height: 800px;
+    width: auto;
+    background-image: url("download.jpg");
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    
+/* .pain{ */
+    /* display: flex; */
+.man{
+    margin-left: 30px;
+}
+.men{
+    margin-left: 50px;
+}
+
+    .pull{
+        background-color:#e6e6d8;
+        height: 300px;
+        padding-top: 30px;
+    }
+    .prime{
+        margin-left: 10px;
+    }
+.sad{
+    color:#cb3362;
+}
+.cont{
+    color: #7a6666;
+}
+.mag{
+    color:#7a6666;
+}
+.meg{
+    text-decoration: underline;
+}
+.play{
+    height:150px;
+    background-color: #c8c10d;
+}
+.footer{
+    background-color: #cb3362;
+    height: 300px;
+}
+.sabi{
+    color: white;
+}
+.dog{
+    font-size: 20px;
+}
+.men, .man{
+    width: 40px;
+    height: 40px;
+}
