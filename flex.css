@@ -74,13 +74,16 @@ footer li{
    
     height: 600px;
 }
+.pull{
+    width: 450px;
+}
 .mine{
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 section{
-    height: 1700px;
+    height: 1850px;
 }
 .container{
     width: 100%;
@@ -93,4 +96,20 @@ section{
     align-items: flex-start;
     margin-left: 40px;
 }
+}
+
+
+@media(max-width:500px) {
+    .container{
+        
+    }
+    .hip{
+        justify-content: left;
+    }
+   .main-nav {
+       margin-top: 30px;
+       margin-right: 00px;
+        justify-content: center;
+        align-items: center;
+    }
 }
